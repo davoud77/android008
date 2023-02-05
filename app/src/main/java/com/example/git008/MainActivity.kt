@@ -2,6 +2,7 @@ package com.example.git008
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import com.example.git008.utils.Constans
 
 class MainActivity : AppCompatActivity() {
@@ -16,5 +17,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun main() {
         val classMe = constant
+
+        Log.d("TAG", "main: $classMe")
     }
 }
